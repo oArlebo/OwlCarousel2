@@ -283,7 +283,7 @@
 		if (video.type === 'youtube') {
 			html.attr( 'src', '//www.youtube.com/embed/' + video.id + '?autoplay=1&rel=0&v=' + video.id );
 		} else if (video.type === 'vimeo') {
-			html.attr( 'src', '//player.vimeo.com/video/' + video.id + '?autoplay=1' );
+			html.attr( 'src', '//player.vimeo.com/video/' + video.id + '?background=1' );
 		} else if (video.type === 'vzaar') {
 			html.attr( 'src', '//view.vzaar.com/' + video.id + '/player?autoplay=true' );
 		}
